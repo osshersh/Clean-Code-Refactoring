@@ -7,6 +7,6 @@ public class NumberValidator {
     }
 
     public static boolean isEven(int value) {
-        return value % 2 == 0;
+        return !isOdd(value);
     }
 }
